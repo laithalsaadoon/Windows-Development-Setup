@@ -1,14 +1,14 @@
 # Using vscode as a default IDE
 $toolsList = @(
     "vscode"
-    "notepadplusplus.install"
-    "sublimetext3"
+    # "notepadplusplus.install"
+    # "sublimetext3"
     "git --params '/GitAndUnixToolsOnPath /WindowsTerminal'"
     "git-credential-winstore"
     "github"
     "github-desktop"
     "Git-Credential-Manager-for-Windows"
-    "p4v"
+    # "p4v"
 );
 
 foreach ($tool in $toolsList) {

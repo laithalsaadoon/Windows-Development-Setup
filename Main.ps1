@@ -1,7 +1,6 @@
 # Description: Boxstarter Script
 # Author: Naqushab
 # Dev Env Setup
-Enable-RemoteDesktop
 Disable-UAC
 Update-ExecutionPolicy Unrestricted
 
@@ -41,7 +40,7 @@ $scriptsList = @(
 );
 
 $configsList = @(
-	"Adblock.ps1"
+	# "Adblock.ps1"
 	"RemoveDefaultApps.ps1"
 	"SystemConfiguration.ps1"
 	"TaskBar.ps1"
