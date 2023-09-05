@@ -1,5 +1,5 @@
 # Description: Boxstarter Script
-# Author: Naqushab
+# Author: Laith Al-Saadoon
 # Dev Env Setup
 Disable-UAC
 Update-ExecutionPolicy Unrestricted
@@ -60,7 +60,7 @@ foreach ($config in $configsList) {
 	Update-SessionEnvironment
 }
 
-#--- reenabling critial items ---
+#--- reenabling critical items ---
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula

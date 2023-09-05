@@ -2,8 +2,9 @@
 
 $toolsList = @(
     "inconsolata"
-    "firacode"
+    "nerd-fonts-firacode"
     "SourceCodePro"
+    "nerd-fonts-iosevka"
 );
 
 foreach ($tool in $toolsList) {

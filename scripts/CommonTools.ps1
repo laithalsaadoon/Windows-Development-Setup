@@ -2,6 +2,7 @@
 $toolsList = @(
     "7zip.install"
     "sysinternals"
+
     # "putty"
     # "ccleaner"
     # "procexp"
@@ -9,10 +10,6 @@ $toolsList = @(
     "wget"
     "awscli"
     "awstools.powershell"
-    # "lockhunter"
-    # "ditto"
-    # "conemu"
-    # "clink"
     "slack"
     # "everything"
     # "winmerge"
